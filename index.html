@@ -3,7 +3,563 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Resume Page</title>
+    <title>Home Page</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+      integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N"
+      crossorigin="anonymous"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <script src="https://use.fontawesome.com/49cf367881.js"></script>
   </head>
-  <body></body>
+  <body>
+    <div class="container-fluid">
+      <div class="row d-flex">
+        <nav
+          class="navbar navbar-expand-lg navbar-light bg-primary w-100 d-flex flex-row sticky-top py-1"
+        >
+          <a
+            class="navbar-brand text-white font-weight-bold text-style-underline"
+            href="#"
+            >Digital_Tech</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-toggle="collapse"
+            data-target="#navbarScroll"
+            aria-controls="navbarScroll"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"> </span>
+          </button>
+          <div
+            class="collapse navbar-collapse justify-content-between"
+            id="navbarScroll"
+          >
+            <div class="form-field w-100">
+              <form class="d-flex w-100">
+                <input
+                  class="form-control mr-2"
+                  type="search"
+                  placeholder="Search"
+                  aria-label="Search"
+                  id="search"
+                />
+                <button class="btn btn-success rounded-pill" type="submit">
+                  Search
+                </button>
+              </form>
+            </div>
+            <div class="list-item w-100">
+              <ul
+                class="navbar-nav ml-auto m-auto w-100 d-flex justify-cotent-around"
+                style="height: 100%"
+              >
+                <li class="nav-item m-auto">
+                  <a class="nav-link text-white" href="#">HOME</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link text-white" href="#">ABOUT</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link text-white" href="#">COURSES</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link text-white" href="#">PAGES</a>
+                </li>
+                <li class="nav-item m-auto">
+                  <a class="nav-link text-white" href="#">BOLG</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        <div class="col-sm-12 bodytop">
+          <div class="col-sm-5 d-flex m-auto flex-column">
+            <h1>
+              Take the first step<br />
+              to learn with us
+            </h1>
+            <br />
+            <p id="p1">
+              In the history of modern astronomy, there is probably<br />
+              no one greater leap forward than the building and <br />launch of
+              the space telescope known as the Hubble. ₯
+            </p>
+          </div>
+          <div class="col-sm-5 headimg img img-responsive"></div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-sm-12 trends d-flex">
+          <div>
+            <h4>
+              <span
+                class="glyphicon glyphicon-blackboard"
+                style="margin-right: 10px"
+              ></span
+              >New Classes
+            </h4>
+            <p>
+              In the history of<br />
+              modern astronomy,<br />
+              there is probably<br />
+              no one greater leap<br />
+              forward.
+            </p>
+          </div>
+          <div>
+            <h4>
+              <span
+                class="glyphicon glyphicon-blackboard"
+                style="margin-right: 10px"
+              ></span
+              >Top Courses
+            </h4>
+            <p>
+              In the history of<br />
+              modern astronomy,<br />
+              there is probably<br />
+              no one greater leap<br />
+              forward.
+            </p>
+          </div>
+          <div>
+            <h4>
+              <span
+                class="glyphicon glyphicon-blackboard"
+                style="margin-right: 10px"
+              ></span
+              >Full E-Books
+            </h4>
+            <p>
+              In the history of<br />
+              modern astronomy,<br />
+              there is probably<br />
+              no one greater leap<br />
+              forward.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="margin-top: 10%">
+        <div class="col-sm-12">
+          <div class="col-sm-12 mt-5 mb-2">
+            <h1 class="h1">
+              Popular Technology<br />
+              Available Right Now
+            </h1>
+            <p style="padding: 0px; margin-left: 80px">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do
+              eiusmod tempor incididunt ut<br />
+              labore et dolore magna aliqua.
+            </p>
+          </div>
+          <div class="col-sm-12">
+            <div
+              id="carouselExampleIndicators"
+              class="carousel slide"
+              data-ride="carousel"
+              style="height: 450px"
+            >
+              <ol class="carousel-indicators">
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="0"
+                  class="active"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="1"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="2"
+                ></li>
+                <li
+                  data-target="#carouselExampleIndicators"
+                  data-slide-to="3"
+                ></li>
+              </ol>
+              <div class="carousel-inner">
+                <div class="carousel-item active">
+                  <img src="images/1.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/2.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/5.jpg" class="d-block w-100" alt="..." />
+                </div>
+                <div class="carousel-item">
+                  <img src="images/7.jpg" class="d-block w-100" alt="..." />
+                </div>
+              </div>
+              <button
+                class="carousel-control-prev"
+                type="button"
+                data-target="#carouselExampleIndicators"
+                data-slide="prev"
+              >
+                <span
+                  class="carousel-control-prev-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Previous</span>
+              </button>
+              <button
+                class="carousel-control-next"
+                type="button"
+                data-target="#carouselExampleIndicators"
+                data-slide="next"
+              >
+                <span
+                  class="carousel-control-next-icon"
+                  aria-hidden="true"
+                ></span>
+                <span class="sr-only">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="row w-100">
+        <div class="col-sm-12" style="margin-top: 150px">
+          <div class="col-sm-6">
+            <h2 class="h1">
+              Features That<br />
+              Can Avail By Everyone
+            </h2>
+            <p class="p1" style="padding: 0px; margin-left: 80px">
+              If you are looking at blank cassettes on the web, you may be very
+              confused at the difference in price. You may see some for as low
+              as $.17 each.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row" style="padding: 0px">
+        <div class="col-sm-12 w-100 d-flex flex-wrap justify-content-end">
+          <div class="col-sm-3 box">
+            <span
+              class="fa fa-key"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">Lifetime Access</h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+          <div class="col-sm-3 box" style="margin-top: 0px">
+            <span
+              class="fa fa-file"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">
+              Source File Included
+            </h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+          <div class="col-sm-3 box" style="margin-top: -50px">
+            <span
+              class="fa fa-gift"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">
+              Student Membership
+            </h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+        </div>
+        <div
+          class="col-sm-12 w-100 d-flex flex-wrap justify-content-end"
+          style="margin-top: 50px"
+        >
+          <div class="col-sm-3 box">
+            <span
+              class="fa fa-briefcase"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">35000+ Courses</h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+          <div class="col-sm-3 box" style="margin-top: 0px">
+            <span
+              class="fa fa-mobile"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">Expert Mentors</h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+          <div class="col-sm-3 box" style="margin-top: -50px">
+            <span
+              class="fa fa-microphone"
+              style="font-size: 30px; margin: 20px"
+            ></span>
+            <h4 style="font-size: 20px; font-weight: bold">Live Supports</h4>
+            <p style="color: darkslateblue; font-size: 16px">
+              <br />
+              Lorem ipsum dolor sit amet consec tetur adipisicing elit, sed do
+              eiusmod tempor incididunt labore. Lorem ipsum dolor sit amet
+              consec tetur adipisicing elit, sed do eiusmod tempor incididunt
+              labore.
+            </p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div
+          class="col-sm-12 d-flex flex-wrap justify-content-between try-free-course"
+        >
+          <div class="col-sm-8 trainee w-100">
+            <h1>Watch Our Trainers in Live Action</h1>
+            <p>
+              If you are looking at blank cassettes on the web, you may be very
+              confused at the difference in price. You may see some for as low
+              as $.17 each.
+            </p>
+          </div>
+          <div class="col-sm-4 form-control courses">
+            <center
+              style="
+                font-size: 28px;
+                color: white;
+                font-weight: bold;
+                font-family: serif;
+                margin-top: 25px;
+              "
+            >
+              Courses for Free
+            </center>
+            <center style="font-size: 18px; color: white; font-family: serif">
+              It is high time for learning
+            </center>
+            <input
+              type="text"
+              placeholder="NAME"
+              class="form-control"
+              style="
+                font-size: 15px;
+                color: white;
+                font-family: serif;
+                border: 0px;
+                background: transparent;
+                margin: 2px;
+                padding-bottom: 5px;
+              "
+            />
+            <hr />
+            <input
+              type="text"
+              placeholder="PHONE NUMBER"
+              class="form-control"
+              style="
+                font-size: 15px;
+                color: white;
+                font-family: serif;
+                border: 0px;
+                background: transparent;
+                margin: 2px;
+              "
+            />
+            <hr />
+            <input
+              type="text"
+              placeholder="EMAIL ADDRESS"
+              class="form-control"
+              style="
+                font-size: 15px;
+                color: white;
+                font-family: serif;
+                border: 0px;
+                background: transparent;
+                margin: 2px;
+              "
+            />
+            <hr />
+            <input
+              type="Button"
+              value="SUBMIT"
+              class="form-control"
+              style="
+                background-color: rgba(196, 75, 363, 0.8);
+                font-weight: bolder;
+                color: white;
+              "
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="row w-100 h-100 mt-5 py-5">
+        <div class="col-md-12 w-100 h-100 mt-5 py-5">
+          <div
+            class="col-md-10 col-xs-10 panel panel-body d-flex flex-wrap m-auto mt-5"
+          >
+            <span class="col-md-2 col-xs-12 fa fa-facebook ico"></span>
+            <span class="col-md-2 col-xs-12 fa fa-whatsapp ico"></span>
+            <span class="col-md-2 col-xs-12 fa fa-twitter ico"></span>
+            <span class="col-md-2 col-xs-12 fa fa-instagram ico"></span>
+            <span class="col-md-2 col-xs-12 fa fa-phone ico"></span>
+            <span class="col-md-2 col-xs-12 fa fa-youtube ico"></span>
+          </div>
+          <div class="col-md-1"></div>
+        </div>
+      </div>
+
+      <!-- footer -->
+      <footer class="footer-area w-100 h-100 p-0">
+        <div
+          class="row w-100"
+          style="
+            background-image: url(img/footer-bg.png);
+            height: 100%;
+            display: flex;
+            flex-direction: row;
+            background-size: cover;
+            box-sizing: border-box;
+          "
+          class="img img-responsive"
+        >
+          <div class="col-sm-12 single-footer-widget d-flex flex-wrap">
+            <div class="col-sm-2">
+              <center><h4 class="h4">Top Products</h4></center>
+              <ul>
+                <li><a href="#">Managed Website</a></li>
+                <li><a href="#">Manage Reputation</a></li>
+                <li><a href="#">Power Tools</a></li>
+                <li><a href="#">Marketing Service</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <center><h4 class="h4">Quick Links</h4></center>
+              <ul>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Brand Assets</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <center><h4 class="h4">Features</h4></center>
+              <ul>
+                <li><a href="#">Jobs</a></li>
+                <li><a href="#">Brand Assets</a></li>
+                <li><a href="#">Investor Relations</a></li>
+                <li><a href="#">Terms of Service</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-2">
+              <center><h4 class="h4">Resources</h4></center>
+              <ul>
+                <li><a href="#">Guides</a></li>
+                <li><a href="#">Research</a></li>
+                <li><a href="#">Experts</a></li>
+                <li><a href="#">Agencies</a></li>
+              </ul>
+            </div>
+            <div class="col-sm-4">
+              <center><h4 class="h4">Newsletter</h4></center>
+              <p style="color: darkviolet; text-align: center">
+                You can trust us. we only send promo offers,
+              </p>
+              <form action="/" class="d-flex">
+                <input
+                  type="text"
+                  id="txt"
+                  class="form-field"
+                  placeholder="Enter Your E-Mail"
+                  style="
+                    background-color: lightgray;
+                    height: 40px;
+                    margin-left: 50px;
+                    text-decoration-color: gray;
+                    box-shadow: 2px 2px 5px 1px darkviolet;
+                  "
+                />
+                <button type="button" class="btn btn-success">SUBSCRIBE</button>
+              </form>
+            </div>
+          </div>
+          <div class="col-sm-12">
+            <div class="col-sm-7">
+              <p
+                style="
+                  color: darkviolet;
+                  text-align: center;
+                  margin: 20px;
+                  margin-top: 100px;
+                "
+              >
+                Copyright ©2020 All rights reserved | This template is made
+                with<span class="fa fa-heart" style="margin: 5px"></span> by
+                Digital_Tech
+              </p>
+            </div>
+            <div
+              class="col-sm-5"
+              style="
+                height: 60px;
+                margin-top: 80px;
+                font-size: 26px;
+                color: darkviolet;
+              "
+            >
+              <div class="col-md-2 col-xs-12 fa fa-facebook ic"></div>
+              <div class="col-md-2 col-xs-12 fa fa-whatsapp ic"></div>
+              <div class="col-md-2 col-xs-12 fa fa-twitter ic"></div>
+              <div class="col-md-2 col-xs-12 fa fa-instagram ic"></div>
+              <div class="col-md-2 col-xs-12 fa fa-google ic"></div>
+              <div class="col-md-2 col-xs-12"></div>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--    // last row-->
+    </div>
+  </body>
+  <script
+    src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"
+  ></script>
+  <script
+    src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+    crossorigin="anonymous"
+  ></script>
 </html>
